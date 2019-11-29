@@ -23,7 +23,9 @@ After the pre-training, the model can be fine-tuned (trained) for a specific tas
 - [EuroParl](http://opus.nlpl.eu/Europarl.php)
 - [Abstracts from Dominio Publico](http://www.dominiopublico.gov.br/pesquisa/PesquisaObraForm.jsp)
 
-Abstracts already assembled [teses](https://drive.google.com/open?id=1faI_PVQiiWvP0qK9UQGq7D78KKqs8t1H)
+## Auxiliary Datasets
+- Assembled abstracts [teses](https://drive.google.com/open?id=1faI_PVQiiWvP0qK9UQGq7D78KKqs8t1H)
+- Polarity Sentiment Tweets [polarity_sentiment_tweets](https://drive.google.com/open?id=1-VvfOaph71Dlq6ZdVGQP7bAnmy33QIoj)
 
 ## Models
 Both models are able to produce very good results in NLP tasks.
