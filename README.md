@@ -43,6 +43,13 @@ We also compare the these models to the official Bert Multilingual model.
 ## Usage
 It is possible to find usage instructions in the [Oficial Bert Repository](https://github.com/google-research/bert)
 
+We released two Colab notebooks to show how to use it:
+1. Pre-training ALBERT from Wikipedia using TPU
+2. Fine-tuning ALBERT for Fake News Detection
+
+The first kernel uses Wikipedia (it can use any language) to train a Base ALBERT model.
+The second kernel uses the model trained on step one to fine-tune for the task of predicting Fake News (in Portuguese). This model achieves state-of-the-art results after fine-tuning for less than five minutes.
+
 ## References
 - [Bert](https://github.com/google-research/bert): Pre-training of Deep Bidirectional Transformers for Language Understanding 
 - [Albert](https://github.com/google-research/albert): A Lite Bert for Self-Supervised Learning of Language Representations
