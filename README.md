@@ -1,5 +1,5 @@
 # BertPT and AlbertPT
-Pre-trained **Portuguese** versions of Bert and Albert
+Pre-trained **Portuguese** versions of Bert and Albert. This models were pre-trained and evaluated in our public acessible paper (https://arxiv.org/abs/2007.09757).
 
 ## Introduction
 *BERT*, Bidirectional Encoder Representations from Transformers is a method of pre-training language models.
@@ -35,17 +35,15 @@ Bert base model has 110M parameters, while Albert base model has only 12M.
 - [bert_cased_L-12_H-768_A-12](https://drive.google.com/open?id=1qQ0WL9GGg8P1g8eOOxW8Ts9GXQA4IoEo)
 
 ## Evaluation
-See our paper for a comprehensive evaluation (To Be Released).
+See our paper(https://arxiv.org/abs/2007.09757) for a comprehensive evaluation.
 
 Our experiments suggest similar performance. 
 We also compare the these models to the official Bert Multilingual model.
 
 ## Usage
-It is possible to find usage instructions in the [Oficial Bert Repository](https://github.com/google-research/bert)
-
 We released two Colab notebooks to show how to use it:
-1. Pre-training ALBERT from Wikipedia using TPU
-2. Fine-tuning ALBERT for Fake News Detection
+1. [Pre-training ALBERT from Wikipedia using TPU](Pre_training_ALBERT_from_Wikipedia_using_TPU.ipynb)
+2. [Fine-tuning ALBERT for Fake News Detection](Fine_tuning_ALBERT_for_Fake_News_Detection.ipynb)
 
 The first kernel uses Wikipedia (it can use any language) to train a Base ALBERT model.
 The second kernel uses the model trained on step one to fine-tune for the task of predicting Fake News (in Portuguese). This model achieves state-of-the-art results after fine-tuning for less than five minutes.
@@ -54,5 +52,14 @@ The second kernel uses the model trained on step one to fine-tune for the task o
 - [Bert](https://github.com/google-research/bert): Pre-training of Deep Bidirectional Transformers for Language Understanding 
 - [Albert](https://github.com/google-research/albert): A Lite Bert for Self-Supervised Learning of Language Representations
  
-
+## Citation
+```bibtex
+@article{feijo2020mono,
+  title={Mono vs Multilingual Transformer-based Models: a Comparison across Several Language Tasks},
+  author={Feijo, Diego de Vargas and Moreira, Viviane Pereira},
+  journal={arXiv preprint arXiv:2007.09757},
+  year={2020},
+  url={https://arxiv.org/abs/2007.09757}
+}
+```
 
